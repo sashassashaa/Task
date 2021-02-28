@@ -1,0 +1,118 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>Task</title>
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/nullstyle.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/media.css">
+		<!--Подключаем favicon-->
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/png">
+		<!--Подключаем шрифты-->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap" rel="stylesheet">
+		<!-- Кодировка страницы -->
+		<meta charset="UTF-8"/>
+		<!--Адаптив-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<div class="page">
+			<header class="header">
+				<div class="container">
+					<div class="header__inner">
+						<a class="header__logo" href="#">
+							<img src="img/logo.svg" alt="Logo">
+						</a>
+						<div class="header__burger">
+							<span></span>
+						</div>
+						<nav class="menu">
+							<ul class="menu__list">
+								<li class="menu__list-item">
+									<a href="#" class="menu__list-link">Приложение</a>
+								</li>
+								<li class="menu__list-item">
+									<a href="#" class="menu__list-link">Возможности</a>
+								</li>
+								<li class="menu__list-item">
+									<a href="#" class="menu__list-link">Стоимость</a>
+								</li>
+								<li class="menu__list-item">
+									<a href="#" class="menu__list-link">Блог</a>
+								</li>
+								<li class="menu__list-item">
+									<a href="#" class="menu__list-link">Контакты</a>
+								</li>
+							</ul>
+						</nav>
+						<div class="header__app">
+							<a href="#" class="header__app-link">
+								<img class="header__app-img" src="img/gp.svg" alt="Google Play">
+							</a>
+							<a href="#" class="header__app-link">
+								<img class="header__app-img" src="img/appstore.svg" alt="App Store">
+							</a>
+						</div>
+					</div>	
+				</div>
+			</header>
+			<section class="top">
+				<div class="container">
+					<div class="top__inner">
+						<h1 class="top__title">
+							Приложение органайзер
+						</h1>
+						<p class="top__text">
+							Контролируй все свои дела и задачи. Не упускай ничего важного.
+								Заметки, даты и напоминания. Все в одном месте.
+						</p>
+						<button class="top__btn">Начать пользоваться</button>
+						<div class="top__item top__item--1">
+							<img class="top__item-img" src="img/user.jpg" alt="User" >
+							<div class="top__item-content">
+								<span class="top__item-title"></span>
+								<span class="top__item-text"></span>
+							</div>
+						</div>
+						<div class="top__item top__item--2">
+							<img class="top__item-img" src="img/user1.jpg" alt="User" >
+							<div class="top__item-content">
+								<span class="top__item-title"></span>
+								<span class="top__item-text"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<footer class="footer">
+				<div class="container">
+					<div class="footer__inner">
+						<p class="footer__disclamer">© 2021 ТаскТрекер. Все права защищены</p>
+						<div class="footer__social">
+							<a href="#" class="footer__social-btn">
+								<img class="footer__social-img" src="img/icon/insta.svg" alt="" >
+							</a>
+							<a href="#" class="footer__social-btn">
+								<img class="footer__social-img" src="img/icon/web.svg" alt="" >
+							</a>
+							<a href="#" class="footer__social-btn">
+								<img class="footer__social-img" src="img/icon/twitter.svg" alt="" >
+							</a>
+							<a href="#" class="footer__social-btn">
+								<img class="footer__social-img" src="img/icon/yt.svg" alt="" >
+							</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
